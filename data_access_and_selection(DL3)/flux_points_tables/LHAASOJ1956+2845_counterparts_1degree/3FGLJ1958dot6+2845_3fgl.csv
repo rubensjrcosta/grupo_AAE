@@ -1,0 +1,22 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: e_ref, unit: MeV, datatype: float64, format: .3f}
+# - {name: e_min, unit: MeV, datatype: float64, format: .3f}
+# - {name: e_max, unit: MeV, datatype: float64, format: .3f}
+# - {name: e2dnde, unit: MeV / (cm2 s), datatype: float64, format: .3e}
+# - {name: e2dnde_errp, unit: MeV / (cm2 s), datatype: float64, format: .3e}
+# - {name: e2dnde_errn, unit: MeV / (cm2 s), datatype: float64, format: .3e}
+# - {name: e2dnde_ul, unit: MeV / (cm2 s), datatype: float64, format: .3e}
+# - {name: sqrt_ts, unit: '', datatype: float32, format: .3f}
+# - {name: is_ul, datatype: bool}
+# meta: !!omap
+# - {SED_TYPE: e2dnde}
+# - {UL_CONF: 0.9544997}
+# schema: astropy-2.0
+e_ref e_min e_max e2dnde e2dnde_errp e2dnde_errn e2dnde_ul sqrt_ts is_ul
+173.20508075688775 100.00000000000004 299.99999999999994 6.026270937568516e-06 1.6842485449208587e-06 1.6615339612710424e-06 nan 3.600084 False
+547.722557505166 299.99999999999994 999.9999999999998 1.7613414334505056e-05 8.315920208930041e-07 8.315920208930041e-07 nan 23.983833 False
+1732.0508075688763 999.9999999999998 2999.9999999999977 1.9124293373961374e-05 7.377165092340004e-07 7.377165092340004e-07 nan 36.267555 False
+5477.225575051666 2999.9999999999977 10000.00000000001 6.824235317508581e-06 5.293995628794201e-07 5.293995628794201e-07 nan 20.94782 False
+31622.77660168378 10000.00000000001 100000.00000000001 4.105961810274469e-09 1.2113497090417964e-09 1.0457008730220593e-09 nan 6.5974555 False
